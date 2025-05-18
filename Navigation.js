@@ -104,7 +104,7 @@ const Navigation = () => {
                                     Cloud image classification is done using a model built by M. Guzel, M. Kalkan, E. Bostanci, K. Acici, T. Asuroglu. {'\n\n'}
                                     The app is built using React Native and Expo. {'\n\n'}
                                     The source code is available on GitHub. {'\n\n'}
-                                    <Text style={{ color: '#00eaff' }} onPress={() => Linking.openURL('https://github.com/Aaron-Yuen/Simple-real-time-weather-app')}>Click here to view the source code</Text>
+                                    <Text style={{ color: '#00eaff' }} onPress={() => Linking.openURL('https://github.com/Aaron-Yuen/real-time-weather-app')}>Click here to view the source code</Text>
                                 </Text>
                             </ScrollView>
                             {/* Bottom text */}

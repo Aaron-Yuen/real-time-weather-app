@@ -53,9 +53,10 @@ simple-real-time-weather-app/
 
 ### Prerequisites
 
-- **Node.js** and **npm** (or **yarn**)
+- **Node.js** and **npm** (or **yarn**) and **npx**
 - **Python 3.8+**
 - **Expo CLI** (`npm install -g expo-cli`)
+- **Expo Go App** (if you want to run the app locally)
 - **EAS CLI** (`npm install -g eas-cli`)
 - **Google account** (for the Gemini API key)
 - **Openweather account** (for the OpenWeather API key)
@@ -94,6 +95,10 @@ pip install -r requirement.txt
 python server.py
 ```
 
+Since **Gemini 2.0 Flash and Gemini 2.0 Flash Preview Image Generation models are only available in a few countries**, you may need to use a VPN to host your server if your country is not supported.  
+
+Please check the [Gemini API available regions](https://ai.google.dev/gemini-api/docs/available-regions) and [Gemini 2.0 Flash Preview Image Generation model availability](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-preview-image-generation) for more details before hosting the server.
+
 ---
 
 ### 4. Frontend Setup
@@ -112,7 +117,7 @@ After installing dependencies in the `frontend` folder, you should generate your
 This will create a unique Expo project ID and avoid conflicts with the original project.
 
 ```sh
-cd frontend
+# In frontend/
 eas init
 ```
 
@@ -121,7 +126,22 @@ This command will guide you through setting up your own Expo project and update 
 
 ---
 
-### 6. Building APK (Android)
+### 6. Run the project in a local environment
+
+After setting up your Expo project, you can start the app locally and view it on your device using the Expo Go app:
+
+```sh
+# In frontend/
+npx expo start -c
+```
+
+- In the terminal, you will then see a QR code.
+- Click s to switch to the one for Expo Go.
+- Scan the QR code with the [Expo Go app](https://expo.dev/client) on your Android or iOS device to run the app instantly.
+
+---
+
+### 7. Build APK (Android) if necessary
 
 ```sh
 # In frontend/
@@ -157,9 +177,6 @@ eas build -p android --profile production
 ## Notes
 
 - Push notifications require a physical device and valid Expo push tokens.
-- **Gemini 2.0 Flash and Gemini 2.0 Flash Preview Image Generation models are only available in a few countries.**  
-  You may need to use a VPN to host your server if your country is not supported.  
-  Please check the [Gemini API available regions](https://ai.google.dev/gemini-api/docs/available-regions) and [Gemini 2.0 Flash Preview Image Generation model availability](https://ai.google.dev/gemini-api/docs/models#gemini-2.0-flash-preview-image-generation) for more details before using this feature.
 
 ---
 

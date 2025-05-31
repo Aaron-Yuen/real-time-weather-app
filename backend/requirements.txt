@@ -1,0 +1,9 @@
+flask
+flask-cors
+pillow
+numpy
+google-generativeai
+apscheduler
+requests
+timezonefinder
+pytz

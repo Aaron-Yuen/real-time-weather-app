@@ -1,0 +1,42 @@
+{
+  "license": "0BSD",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@google/genai": "^0.14.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@react-native-firebase/app": "^22.2.0",
+    "@react-native-firebase/messaging": "^22.2.0",
+    "@react-navigation/drawer": "^7.3.12",
+    "@react-navigation/native": "^7.1.9",
+    "axios": "^1.9.0",
+    "expo": "^53.0.9",
+    "expo-dev-client": "^5.1.8",
+    "expo-device": "^7.1.4",
+    "expo-image-picker": "~16.1.4",
+    "expo-notifications": "^0.31.2",
+    "expo-status-bar": "^2.2.3",
+    "fs": "^0.0.1-security",
+    "metro": "^0.82.3",
+    "metro-config": "^0.82.3",
+    "metro-resolver": "^0.82.3",
+    "react": "19.0.0",
+    "react-native": "0.79.2",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-modal": "^14.0.0-rc.1",
+    "react-native-paper": "^5.14.3",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1"
+  },
+  "private": true
+}

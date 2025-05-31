@@ -58,7 +58,7 @@ simple-real-time-weather-app/
 - **Expo CLI** (`npm install -g expo-cli`)
 - **EAS CLI** (`npm install -g eas-cli`)
 - **Google account** (for the Gemini API key)
-- **Openweather account** (for the Openweather API key)
+- **Openweather account** (for the OpenWeather API key)
 
 ---
 

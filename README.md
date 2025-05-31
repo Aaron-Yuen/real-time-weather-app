@@ -22,29 +22,30 @@ A cross-platform mobile app built with **React Native** and **Expo** for real-ti
 simple-real-time-weather-app/
 │
 ├── backend/
-│   ├── server.py              # Flask backend server
-│   ├── constants.json         # API keys and server config
-│   ├── user.json              # User data storage
-│   ├── requirement.txt        # Python dependencies
-│   └── uploads/               # Uploaded images for classification
+│   ├── server.py                    # Flask backend server
+│   ├── constants.json               # API keys and server config
+│   ├── user.json                    # User data storage
+│   ├── requirement.txt              # Python dependencies
+│   └── uploads/                     # Uploaded images for classification
 │
 ├── frontend/
-│   ├── App.js                 # Main React Native app entry
-│   ├── app.json               # Expo app configuration
-│   ├── package.json           # JS dependencies
-│   ├── eas.json               # Expo EAS build config
-│   ├── constants.json         # API keys and server config (frontend)
-│   ├── index.js               # Entry point for Expo
-│   ├── Navigation.js          # Drawer navigation
-│   ├── HomeScreen.js          # Home/fact screen
-│   ├── WeatherScreen.js       # Weather and forecast screen
-│   ├── CloudClassifierScreen.js # Cloud classifier UI
-│   ├── UserProfile.js         # User profile/settings
-│   ├── assets/                # App icons and images
+│   ├── App.js                       # Main React Native app entry
+│   ├── app.json                     # Expo app configuration
+│   ├── package.json                 # JS dependencies
+│   ├── eas.json                     # Expo EAS build config
+│   ├── constants.json               # API keys and server config (frontend)
+│   ├── index.js                     # Entry point for Expo
+│   ├── Navigation.js                # Drawer navigation
+│   ├── HomeScreen.js                # Home/fact screen
+│   ├── WeatherScreen.js             # Weather and forecast screen
+│   ├── CloudClassifierScreen.js     # Cloud classifier UI
+│   ├── UserProfile.js               # User profile/settings
+│   ├── assets/                      # App icons and images
 │   └── utils/
-│       └── api.js             # API utility functions
+│       └── api.js                   # API utility functions
 │
-└── README.md                  # This file
+└── README.md                        # This file
+└── License                          # License for this project   
 ```
 
 ---

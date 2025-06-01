@@ -1,4 +1,4 @@
-# Currently, the APK file on Google Drive does not work. Thus, it is removed.
+# Currently, the APK file on Google Drive does not work. Thus, it is removed. Sorry for the inconvenience.
 
 # Simple Real-Time Weather App
 

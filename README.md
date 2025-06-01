@@ -1,3 +1,5 @@
+# Currently, the APK file on Google Drive does not work. Thus, it is removed.
+
 # Simple Real-Time Weather App
 
 A cross-platform mobile app built with **React Native** and **Expo** for real-time weather, AI-generated weather facts, and cloud classification, powered by OpenWeather and Google's Gemini API. The backend is a **Flask** server that handles user management, push notifications, and AI integration.

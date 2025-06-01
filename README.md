@@ -62,7 +62,7 @@ simple-real-time-weather-app/
 - **Expo Go App** (if you want to run the app locally)
 - **EAS CLI** (`npm install -g eas-cli`)
 - **Google account** (for the Gemini API key)
-- **Openweather account** (for the OpenWeather API key)
+- **OpenWeather account** (for the OpenWeather API key)
 
 ---
 
@@ -141,16 +141,6 @@ npx expo start -c
 - In the terminal, you will then see a QR code.
 - Click s to switch to the one for Expo Go.
 - Scan the QR code with the [Expo Go app](https://expo.dev/client) on your Android or iOS device to run the app instantly.
-
----
-
-### 7. Build APK (Android) if necessary
-
-```sh
-# In frontend/
-eas build -p android --profile production
-```
-- Download the APK from the Expo build link after completion.
 
 ---
 

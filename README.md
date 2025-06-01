@@ -140,7 +140,7 @@ npx expo start -c
 
 - In the terminal, you will then see a QR code.
 - Click s to switch to the one for Expo Go.
-- Scan the QR code with the [Expo Go app](https://expo.dev/client) on your Android or iOS device to run the app instantly.
+- Scan the QR code with the [Expo Go app](https://expo.dev/client) on your Android or the camera on your iOS device to run the app instantly.
 
 ---
 
